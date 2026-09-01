@@ -14,8 +14,8 @@ export default function Tools() {
         <div
           className="gif-bg"
           aria-hidden="true"
-          data-bg-src="/images/Google910.gif"
-          style={{ backgroundImage: "url(/images/Google910.gif)" }}
+          data-bg-src="images/Google910.gif"
+          style={{ backgroundImage: "url(images/Google910.gif)" }}
         />
         <Reveal className="res-hero-inner">
           <span className="section-kicker">工具库</span>

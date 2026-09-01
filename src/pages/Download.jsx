@@ -7,7 +7,7 @@ export default function Download() {
   return (
     <main>
       <section className="res-hero">
-        <div className="hero-bg-static" aria-hidden="true" style={{ backgroundImage: "url(/images/trash-app.png)" }} />
+        <div className="hero-bg-static" aria-hidden="true" style={{ backgroundImage: "url(images/trash-app.png)" }} />
         <Reveal className="res-hero-inner">
           <span className="section-kicker">下载中心</span>
           <h1 className="section-title">离线资料下载</h1>

@@ -11,7 +11,7 @@ export default function Docs() {
   return (
     <main>
       <section className="blog-hero">
-        <VideoBg src="/images/libai.mp4" />
+        <VideoBg src="images/libai.mp4" />
         <div className="blog-hero-inner">
           <Reveal>
             <span className="section-kicker">文档中心</span>

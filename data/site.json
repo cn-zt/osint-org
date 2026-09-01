@@ -21,20 +21,20 @@
   ],
   "aiProviders": {
     "domestic": [
-      { "name": "DeepSeek", "icon": "/ai-icons/deepseek-color.png", "url": "https://chat.deepseek.com" },
-      { "name": "Kimi", "icon": "/ai-icons/kimi-color.png", "url": "https://kimi.moonshot.cn" },
-      { "name": "豆包", "icon": "/ai-icons/doubao-color.png", "url": "https://www.doubao.com" },
-      { "name": "通义千问", "icon": "/ai-icons/qwen-color.png", "url": "https://tongyi.aliyun.com/qianwen" },
-      { "name": "智谱清言", "icon": "/ai-icons/qingyan-color.png", "url": "https://chatglm.cn" },
-      { "name": "元宝", "icon": "/ai-icons/yuanbao-color.png", "url": "https://yuanbao.tencent.com" }
+      { "name": "DeepSeek", "icon": "ai-icons/deepseek-color.png", "url": "https://chat.deepseek.com" },
+      { "name": "Kimi", "icon": "ai-icons/kimi-color.png", "url": "https://kimi.moonshot.cn" },
+      { "name": "豆包", "icon": "ai-icons/doubao-color.png", "url": "https://www.doubao.com" },
+      { "name": "通义千问", "icon": "ai-icons/qwen-color.png", "url": "https://tongyi.aliyun.com/qianwen" },
+      { "name": "智谱清言", "icon": "ai-icons/qingyan-color.png", "url": "https://chatglm.cn" },
+      { "name": "元宝", "icon": "ai-icons/yuanbao-color.png", "url": "https://yuanbao.tencent.com" }
     ],
     "overseas": [
-      { "name": "OpenAI", "icon": "/ai-icons/openai.png", "url": "https://chat.openai.com" },
-      { "name": "Claude", "icon": "/ai-icons/claude-color.png", "url": "https://claude.ai" },
-      { "name": "Gemini", "icon": "/ai-icons/gemini-color.png", "url": "https://gemini.google.com" },
-      { "name": "Grok", "icon": "/ai-icons/grok.png", "url": "https://grok.com" },
-      { "name": "Mistral", "icon": "/ai-icons/mistral-color.png", "url": "https://chat.mistral.ai" },
-      { "name": "Hugging Face", "icon": "/ai-icons/huggingface-color.png", "url": "https://huggingface.co/chat" }
+      { "name": "OpenAI", "icon": "ai-icons/openai.png", "url": "https://chat.openai.com" },
+      { "name": "Claude", "icon": "ai-icons/claude-color.png", "url": "https://claude.ai" },
+      { "name": "Gemini", "icon": "ai-icons/gemini-color.png", "url": "https://gemini.google.com" },
+      { "name": "Grok", "icon": "ai-icons/grok.png", "url": "https://grok.com" },
+      { "name": "Mistral", "icon": "ai-icons/mistral-color.png", "url": "https://chat.mistral.ai" },
+      { "name": "Hugging Face", "icon": "ai-icons/huggingface-color.png", "url": "https://huggingface.co/chat" }
     ]
   },
   "toolGroups": [

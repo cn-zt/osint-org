@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { site, top15, latest, docs, toolGroups, toolGroupById } from "@/lib/data";
 import Reveal from "@/components/Reveal";
 
-const heroBgImages = ["/images/01.jpg", "/images/02.jpg", "/images/03.jpg"];
+const heroBgImages = ["images/01.jpg", "images/02.jpg", "images/03.jpg"];
 
 function Hero() {
   return (
@@ -90,7 +90,7 @@ function HomeVideo() {
       <Reveal className="home-video-card">
         <video
           className="home-video"
-          src="/images/recording.mp4"
+          src="images/recording.mp4"
           autoPlay
           muted
           loop

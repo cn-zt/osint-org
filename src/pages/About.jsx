@@ -10,8 +10,8 @@ export default function About() {
         <div
           className="gif-bg"
           aria-hidden="true"
-          data-bg-src="/images/Google99.gif"
-          style={{ backgroundImage: "url(/images/Google99.gif)" }}
+          data-bg-src="images/Google99.gif"
+          style={{ backgroundImage: "url(images/Google99.gif)" }}
         />
         <Reveal className="about-hero-inner">
           <span className="section-kicker">关于我们</span>
