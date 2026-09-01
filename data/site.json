@@ -1,0 +1,48 @@
+{
+  "siteName": "OSINT ORG",
+  "brandSuffix": "",
+  "tagline": "开源情报社区",
+  "slogan": "从公开渠道，提炼有价值的情报",
+  "heroDesc": "聚合高质量开源情报工具、方法论与实战笔记，帮助研究者与爱好者高效完成公开信息分析。",
+  "joinUrl": "https://pd.qq.com/s/hol0bgn98?b=9",
+  "motto": "孤立系统里，差异总会抹平，整齐总会变乱，而我们要做的，就是不断输入能量（做功），来对抗这种 inevitability（不可避免性）。",
+  "disclaimer": "免责声明：本站收录的工具、数据源与文档仅面向公开、可合法访问的信息渠道，仅供合法合规的公开信息研究与学习交流使用。任何使用者将本站内容用于未经授权用途的行为，均与本社区无关，责任由使用者自行承担。",
+  "copyright": "版权声明：© 2026 OSINT ORG。本站原创内容（榜单、文档、评测）采用 CC BY-NC-SA 4.0 协议共享，转载请注明出处；收录的外部资源版权归其原作者与厂商所有。",
+  "cta": {
+    "kicker": "加入社区",
+    "title": "与同行者一起，发现更好的公开情报资源",
+    "desc": "在 QQ 频道中与社区成员交流工具用法、实战案例与方法论，共建高质量的开源情报知识库。",
+    "primaryText": "点击加入 QQ 频道",
+    "secondaryText": "浏览工具库"
+  },
+  "docGroups": [
+    { "id": "tutorial", "name": "教程" },
+    { "id": "blog", "name": "博客" }
+  ],
+  "aiProviders": {
+    "domestic": [
+      { "name": "DeepSeek", "icon": "/ai-icons/deepseek-color.png", "url": "https://chat.deepseek.com" },
+      { "name": "Kimi", "icon": "/ai-icons/kimi-color.png", "url": "https://kimi.moonshot.cn" },
+      { "name": "豆包", "icon": "/ai-icons/doubao-color.png", "url": "https://www.doubao.com" },
+      { "name": "通义千问", "icon": "/ai-icons/qwen-color.png", "url": "https://tongyi.aliyun.com/qianwen" },
+      { "name": "智谱清言", "icon": "/ai-icons/qingyan-color.png", "url": "https://chatglm.cn" },
+      { "name": "元宝", "icon": "/ai-icons/yuanbao-color.png", "url": "https://yuanbao.tencent.com" }
+    ],
+    "overseas": [
+      { "name": "OpenAI", "icon": "/ai-icons/openai.png", "url": "https://chat.openai.com" },
+      { "name": "Claude", "icon": "/ai-icons/claude-color.png", "url": "https://claude.ai" },
+      { "name": "Gemini", "icon": "/ai-icons/gemini-color.png", "url": "https://gemini.google.com" },
+      { "name": "Grok", "icon": "/ai-icons/grok.png", "url": "https://grok.com" },
+      { "name": "Mistral", "icon": "/ai-icons/mistral-color.png", "url": "https://chat.mistral.ai" },
+      { "name": "Hugging Face", "icon": "/ai-icons/huggingface-color.png", "url": "https://huggingface.co/chat" }
+    ]
+  },
+  "toolGroups": [
+    { "id": "search-engines", "name": "专业搜索引擎", "icon": "compass", "desc": "面向深网、文件、学术与代码的垂直检索入口。" },
+    { "id": "social", "name": "社交与人员", "icon": "users", "desc": "用户名、头像、关系链与社群活动追踪。" },
+    { "id": "geo", "name": "地理空间", "icon": "map", "desc": "地图、影像、地理标签与轨迹重建资源。" },
+    { "id": "domains", "name": "域名与网络", "icon": "globe", "desc": "WHOIS、子域、证书与暴露资产侦察。" },
+    { "id": "media", "name": "图像与视频", "icon": "image", "desc": "反向搜图、元数据、深伪与溯源分析。" },
+    { "id": "databases", "name": "公开数据库", "icon": "database", "desc": "泄露库、企业工商与公共记录聚合。" }
+  ]
+}

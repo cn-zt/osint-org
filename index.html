@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OSINT 开源情报社区</title>
+  <meta name="description" content="OSINT 开源情报社区，专注从公开渠道收集、整理并分享有价值的情报工具与方法。" />
+  <script>
+    // 早期应用主题，避免闪烁
+    (function () {
+      try {
+        var t = localStorage.getItem("osint-theme") || "system";
+        var idx = t === "dark" ? 0 : t === "light" ? 2 : 1;
+        document.documentElement.style.setProperty("--theme-index", String(idx));
+        document.documentElement.setAttribute("data-index", String(idx));
+        if (t === "system") t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.setAttribute("data-theme", t);
+      } catch (e) { document.documentElement.setAttribute("data-theme", "dark"); }
+    })();
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
